@@ -1,0 +1,24 @@
+.principalContainer{
+    background-image: url("../img/fondo.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+    text-align: center;
+}
+
+.mainContainer>h1{
+    font-size: 3.5rem;
+}
+.mainContainer>h2{
+    font-size: 2rem;
+}
